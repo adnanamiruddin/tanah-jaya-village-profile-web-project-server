@@ -61,8 +61,8 @@ export const getAllBlogs = async (req, res) => {
   try {
     const { status } = req.query;
 
-    const blogs = [];
     const blogsSnap = await getDocs(BlogsTable);
+    const blogs = [];
 
     for (const blogDoc of blogsSnap.docs) {
       const blog = Blog.getData(blogDoc);
