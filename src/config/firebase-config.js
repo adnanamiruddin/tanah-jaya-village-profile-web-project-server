@@ -22,4 +22,5 @@ export const VissionAndMissionsTable = collection(db, "vission_and_missions");
 export const BlogsTable = collection(db, "blogs");
 export const InfographicsTable = collection(db, "infographics");
 export const UmkmsTable = collection(db, "umkms");
+export const SchedulesTable = collection(db, "schedules");
 export const SotksTable = collection(db, "sotks");
